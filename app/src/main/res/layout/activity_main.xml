@@ -8,7 +8,7 @@
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
-        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
 
         />
 
@@ -16,41 +16,47 @@
         android:id="@+id/btnSave"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Save"
-        android:layout_marginTop="150dp"
+        android:layout_below="@+id/etText"
         android:layout_marginLeft="100dp"
-        android:textStyle="bold"
-        />
+        android:layout_marginTop="5dp"
+        android:text="Save"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/btnView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/etText"
         android:layout_marginLeft="220sp"
-        android:layout_marginTop="150dp"
 
+        android:layout_marginTop="5dp"
         android:text="View" />
 
     <Button
         android:id="@+id/btn2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="150dp"
-        android:layout_marginTop="250dp"
-        android:text="Show for Activity 2"
+        android:layout_below="@+id/tvText"
+        android:layout_alignStart="@+id/tvText"
+        android:layout_alignEnd="@+id/tvText"
 
-        />
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="-68dp"
+        android:text="Show for Activity 2" />
+
     <TextView
         android:id="@+id/tvText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Show data stored"
-        android:textSize="20sp"
-        android:layout_marginTop="220dp"
+        android:layout_below="@+id/btnSave"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="Show data stored"
 
 
-        />
+        android:textSize="20sp" />
 
 
 
